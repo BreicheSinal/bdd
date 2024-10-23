@@ -70,3 +70,77 @@
   display: flex;
   flex-direction: column;
 }
+
+/*FOOTER*/
+.footer-contanier {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #212121;
+  color: #7a7a7a;
+}
+
+.footer-list-container {
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.footer-list-links {
+  color: white;
+  cursor: pointer;
+}
+
+.contact-items {
+  cursor: pointer;
+  color: white;
+}
+
+.contact-items p {
+  margin-bottom: 20px;
+}
+
+.footer-list-links p {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.footer-titles {
+  justify-content: space-between;
+  color: #9d9d9d;
+}
+
+.footer-titles > :first-child {
+  margin-left: 130px;
+  justify-content: flex-start;
+}
+
+.footer-titles > :nth-child(2) {
+  margin-right: 266px;
+  justify-content: flex-start;
+}
+
+.footer-icons {
+  gap: 30px;
+}
+
+.footer-captions {
+  margin-top: 5px;
+  font-size: 10px;
+  color: white;
+  gap: 30px;
+}
+
+.mobile-app {
+  margin-top: 9px;
+  font-size: 17px;
+}
+
+.bright-volcano-container {
+  margin-top: 20px;
+  margin-left: 130px;
+  font-size: 12px;
+}
+
+.bright-volcano {
+  color: #0078be;
+  cursor: pointer;
+}
