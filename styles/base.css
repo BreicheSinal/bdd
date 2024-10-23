@@ -74,7 +74,7 @@ main {
   transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-.overlay-items {
+.overlay-items-explore {
   color: white;
   position: absolute;
   align-items: center;
@@ -115,4 +115,85 @@ main {
   font-weight: bold;
   color: gray;
   padding: 0.5rem;
+}
+
+.bdd-app {
+  margin-left: 485px;
+  color: grey;
+  font-weight: bolder;
+  padding: 2rem;
+}
+
+.bdd-app-img {
+  margin-top: 20px;
+  gap: 80px;
+  cursor: pointer;
+}
+
+/*BDD HUB*/
+.bdd-hub {
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay-items-hub {
+  position: absolute;
+  padding: 2rem;
+}
+
+.hub-items {
+  justify-content: space-evenly;
+  margin-top: 2.2rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.image-container-hub {
+  height: 40vh;
+}
+
+/*WHAT'S TRENDING*/
+.trending-cards-container {
+  justify-content: center;
+  gap: 30px;
+}
+
+.trending-card {
+  justify-content: center;
+  background-color: white;
+}
+
+.trending-card h5 {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.trending-card p {
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.5rem;
+}
+
+.visit-blog-bttn-container {
+  justify-content: center;
+  margin: 3rem;
+}
+.visit-blog-bttn {
+  width: 150px;
+}
+
+/*WORDS FROM COMMUNITY*/
+.words-from-community {
+  padding: 0 12.5rem 0 12.5rem;
+}
+
+.words-community-imgs {
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.words-community-imgs > img {
+  width: 250px;
 }
