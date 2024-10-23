@@ -5,6 +5,15 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.button {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 0.5rem;
+  border: 0;
+  background-color: #0078be;
+  color: white;
+}
+
 /*NAVBAR*/
 .navbar-container {
   display: flex;
@@ -37,13 +46,7 @@
 }
 
 .join-us-button {
-  border: 0;
-  padding: 0.5rem;
-  border-radius: 15px;
-  cursor: pointer;
   width: 100px;
-  background-color: #0078be;
-  color: white;
   font-weight: bold;
 }
 
@@ -52,12 +55,18 @@
   text-align: center;
 }
 
-.titles-color {
+.titles {
   color: #212121;
   margin-top: 2.5rem;
   margin-bottom: 2rem;
+  font-size: 32px;
 }
 
 .display-flex {
   display: flex;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
 }
